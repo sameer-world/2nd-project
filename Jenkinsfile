@@ -1,6 +1,6 @@
 
   stage 'Checkout'
-  git url: 'https://github.com/sameer-world/2nd-project.git'   
+  git url: 'git credentialsId: '21efd071-f6cb-4ee4-91c8-588d72c8f3f4', url: 'https://github.com/sameer-world/2nd-project''   
   // Clean any locally modified files and ensure we are actually on origin/master
   // as a failed release could leave the local workspace ahead of origin/master
   sh "git clean -f && git reset --hard origin/master"
